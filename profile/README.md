@@ -1,20 +1,16 @@
 # CloudSecurityAlliance-Chatbots
 
-Chatbot configurations, datasets, and supporting files for CSA conversational interfaces.
+Home of the **CCSK Orb** ([ccsk-orb.cloudsecurityalliance.org](https://ccsk-orb.cloudsecurityalliance.org)), the study assistant for the CCSK v5 (Certificate of Cloud Security Knowledge) certification.
 
-## CCSK Orb
+**The repositories in this organization support a production service. Please do not archive, transfer or delete them, or this organization, without the system owner's approval.**
 
-The **CCSK Orb** chatbot ([ccsk-orb.cloudsecurityalliance.org](https://ccsk-orb.cloudsecurityalliance.org)) helps users study for the CCSKv5 (Certificate of Cloud Security Knowledge v5) certification. It uses a customized LibreChat instance backed by OpenAI with RAG over the CCSK v5 curriculum.
+| Repository | Role | Status |
+|------------|------|--------|
+| [chatbot-ccsk-orb-v2](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-ccsk-orb-v2) | Infrastructure and operations | Production |
+| [chatbot-ccsk-orb-librechat](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-ccsk-orb-librechat) | Application code (CSA's LibreChat fork) | Production |
+| [chatbot-CCSKv5-data](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-CCSKv5-data) | Knowledge-base content | Production |
+| [chatbot-ccsk-orb-librechat-config](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-ccsk-orb-librechat-config) | Original configuration and branding | Reference, keep |
+| [chatbot-ccsk-orb-v2-backups](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-ccsk-orb-v2-backups) | Historical backups | Keep, retention decision pending |
+| [chatbot-internal-iso-qms](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-internal-iso-qms) | Notes for a separate internal bot | Dormant |
 
-| Repo | Purpose | Public? |
-|------|---------|---------|
-| [chatbot-ccsk-orb-librechat](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-ccsk-orb-librechat) | LibreChat fork — React frontend, Node.js API, Docker deployment | Yes |
-| [chatbot-ccsk-orb-data](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-ccsk-orb-data) | CCSK v5 curriculum content (markdown), system prompts, data pipeline | Yes |
-| chatbot-ccsk-orb-librechat-config | Production config, secrets, branding, server ops scripts, operations runbook | Private |
-
-## Other Repos
-
-| Repo | Purpose |
-|------|---------|
-| [chatbot-CCSKv5-data](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-CCSKv5-data) | Alternate/legacy CCSK v5 data pipeline with PDF conversion scripts |
-| [chatbot-internal-iso-qms](https://github.com/CloudSecurityAlliance-Chatbots/chatbot-internal-iso-qms) | Internal ISO QMS chatbot |
+All repositories are private.
