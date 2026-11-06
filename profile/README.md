@@ -2,7 +2,7 @@
 
 Home of the **CCSK Orb** ([ccsk-orb.cloudsecurityalliance.org](https://ccsk-orb.cloudsecurityalliance.org)), the study assistant for the CCSK v5 (Certificate of Cloud Security Knowledge) certification.
 
-**The repositories in this organization support a production service. Please do not archive, transfer or delete them, or this organization, without the system owner's approval.**
+**The repositories in this organization support a production service. Please do not archive, transfer or delete them, or this organization, without the explicit approval of its owners (technical and business).**
 
 | Repository | Role | Status |
 |------------|------|--------|
